@@ -7,6 +7,7 @@ const createWindow = () => {
       frame: false,
       icon: "hass.png",
       show: true,
+      transparent: true
     })
   
     win.loadURL('https://hass.thijsk.systems')
